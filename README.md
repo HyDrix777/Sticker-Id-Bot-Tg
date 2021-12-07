@@ -1,0 +1,2 @@
+# Sticker-Id-Bot-Tg
+🆔👀
