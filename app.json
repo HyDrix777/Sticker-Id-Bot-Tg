@@ -1,0 +1,30 @@
+{
+    "name": "sticker id",
+    "description": "A bot to find id of a sticker.",
+    "repository": "https://Github.com/MR-JINN-OF-TG/Stickerid",
+    "keywords": [
+        "bot",
+        "stickerid",
+        "pyrogram"
+    ],
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+        },
+        "CHANNEL": {
+            "description": "Your Channel Username Without @",
+            "value": "nazriyanazeem"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
