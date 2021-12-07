@@ -17,8 +17,8 @@ THIS REPOSITORY  HAVE TWO BRANCHES FOR DEPLOY WITH COMMAND & WITHOUT COMMAND.
 
 - Finds I'd of a sticker. . 
 
- 
- 
+ ##### Deploy on Railway
+ [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FHydrayt777%2FSticker-Id-Bot-Tg.git&envs=API_HASH%2CAPI_ID%2CBOT_TOKEN%2CCHANNEL&API_HASHDesc=Your+API_HASH+from+https%3A%2F%2Fmy.telegram.org%2Fapps&API_IDDesc=Your+API_ID+from+https%3A%2F%2Fmy.telegram.org%2Fapps&BOT_TOKENDesc=Your+Bot+token+from+%40Botfather&CHANNELDesc=Your+Channel+Username+Without+%40&referralCode=Hydrix)
 
 ##### Deploy - without Command
 
