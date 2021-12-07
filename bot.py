@@ -12,9 +12,9 @@ Bot = Client(
  
    
 START_TEXT = """
-Hai {},
-Am Sticker id Finder Bot. 
-I can Find I'd of an sticker. Just send me a sticker I would reply with its I'd. 
+𝙃𝙚𝙮 {},
+𝘼𝙢 𝙎𝙩𝙞𝙘𝙠𝙚𝙧 𝙞𝙙 𝙁𝙞𝙣𝙙𝙚𝙧 𝘽𝙤𝙩. 
+𝙄 𝙘𝙖𝙣 𝙁𝙞𝙣𝙙 𝙄'𝙙 𝙤𝙛 𝙖𝙣 𝙨𝙩𝙞𝙘𝙠𝙚𝙧. 𝙅𝙪𝙨𝙩 𝙨𝙚𝙣𝙙 𝙢𝙚 𝙖 𝙨𝙩𝙞𝙘𝙠𝙚𝙧 𝙄 𝙬𝙤𝙪𝙡𝙙 𝙧𝙚𝙥𝙡𝙮 𝙬𝙞𝙩𝙝 𝙞𝙩𝙨 𝙄'𝙙
 """
     
 @Bot.on_message(filters.private & filters.command(["start"]))
@@ -26,8 +26,8 @@ async def start(bot, update):
     )
 START_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('Source Code📕', url='https://Github.com/MR-JINN-OF-TG/Stickerid'), 
-        InlineKeyboardButton('CHANNEL📕', url=f"https://telegram.me/{Config.CHANNEL}")
+        InlineKeyboardButton('👤Owner', url='https://t.me/HydraLivegrambot'), 
+        InlineKeyboardButton('CHANNEL📢', url=f"https://telegram.me/{Config.CHANNEL}")
         ]]
     )
 
